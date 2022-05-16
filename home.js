@@ -132,5 +132,5 @@ console.log(deals)
     to be displaying wrong on the live site.
 */
 //CODE HERE
-deals[1].desc = deals[1].desc.replace('March','April')
+deals[1].desc = deals[1].desc.replace('March','April').trim()
 console.log(deals)

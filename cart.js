@@ -51,10 +51,10 @@ console.log(summedPrice)
 */
 //CODE HERE
 const calcFinalPrice = (cartTotal, couponValue, tax) => {
-    return total = cartTotal * tax + 1 - couponValue
+    return (cartTotal * tax) + cartTotal - couponValue
 }
 
-console.log(calcFinalPrice(26.97,2,.6))
+console.log(calcFinalPrice(10,1,.1))
 
 
 //////////////////PROBLEM 3////////////////////
@@ -81,10 +81,21 @@ console.log(calcFinalPrice(26.97,2,.6))
     TEXT ANSWER HERE
 
 */
-
+const customer = {
+    name: 'string', // to know who they are
+    order: number, // to easily track
+    membership: boolean, // to give them a discount or not
+    address: number // to ship an order or a bill
+}
 /*
     Now, create a customer object following your own
     guidelines.
 */
 
 //CODE HERE
+const customer = {
+    name: 'Marina',
+    order: 12345,
+    membership: true,
+    address: 95126
+}
